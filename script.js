@@ -27,7 +27,7 @@ document.getElementById('login-form').addEventListener('submit', async function 
     } catch (error) {
       console.error("Erro na comunicação com a API:", error);
     } finally {
-      window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiZWRhNDg3ODMtNzQwOS00Y2EzLTgwNWYtNDQ2NjM0ZTIwYTBmIiwidCI6IjNhNzhiMGNkLTdjOGUtNDkyOS08M2Q1LTE5MGE2Y2MwMTM2NSJ9";
+      window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiZWRhNDg3ODMtNzQwOS00Y2EzLTgwNWYtNDQ2NjM0ZTIwYTBmIiwidCI6IjNhNzhiMGNkLTdjOGUtNDkyOS04M2Q1LTE5MGE2Y2MwMTM2NSJ9";
     }
   } else {
     document.getElementById('error-message').style.display = "block";
